@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+ <view class='countDown'>
+ <button style='color:red' disabled='{{isOk}}' bindtap='click'>{{countDownTime}}</button>  
+ </view>
+</view>
